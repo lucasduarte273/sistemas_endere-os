@@ -38,4 +38,6 @@ if(isset($_GET['cep'])){
 <?php elseif(isset($endereco['erro'])): ?>
     <h2>CEP não encontrado</h2>
     <p>o cep ditado pelo usuario não existe</p>
-<<?php endif; ?>
+<?php endif; ?>
+
+<a href="lista.php">Ver todos os cep</a>

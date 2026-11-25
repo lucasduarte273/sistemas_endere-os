@@ -11,7 +11,7 @@ function salvarCep($cep,$lograouro,$bairro,$localidade,$uf,$estado,$regiao,$ddd)
 
 function buscarTabela($tabela) {
     global $conexao;
-    $sql = "SELECT * FROM '$tabela'";
+    $sql = "SELECT * FROM $tabela";
     $resultado = $conexao->query($sql);
 
     return $resultado;
